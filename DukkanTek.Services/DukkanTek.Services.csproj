@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DukkanTek.Common\DukkanTek.Common.csproj" />
+		<ProjectReference Include="..\DukkanTek.Repository\DukkanTek.Repository.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GenericUtils">
+			<HintPath>Libs\GenericUtils.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+</Project>
